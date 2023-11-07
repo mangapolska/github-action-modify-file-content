@@ -75,7 +75,7 @@ jobs:
           cat > README.md << EOF
           Website: https://jaywcjlove.github.io/github-action-modify-file-content  
 
-          TEST: <!--GAMFC-->2022-11-29 01:44:16<!--GAMFC-END-->
+          TEST: image: ghcr.io/domaroof/domaplus-api:amd64-2022-11-29 01:44:16-docker
           EOF
 
       - name: Deploy
@@ -114,8 +114,8 @@ jobs:
             `README.md` file content
 
             ```markdown
-            update time <!--GAMFC-->2022-10-26 14:39:35<!--GAMFC-END-->
+            update time image: ghcr.io/domaroof/domaplus-api:amd64-2022-10-26 14:39:35-docker
             ```
 
-            Replace the content between `<!--GAMFC-->` and 
-            `<!--GAMFC-END-->`.
+            Replace the content between `image: ghcr.io/domaroof/domaplus-api:amd64-` and 
+            `-docker`.

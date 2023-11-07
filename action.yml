@@ -35,12 +35,12 @@ inputs:
     default: 'github-actions[bot]@users.noreply.github.com'
     required: false
   openDelimiter:
-    description: 'Character to use for opening delimiter, by default `<!--GAMFC-->`'
-    default: '<!--GAMFC-->'
+    description: 'Character to use for opening delimiter, by default `image: ghcr.io/domaroof/domaplus-api:amd64-`'
+    default: 'image: ghcr.io/domaroof/domaplus-api:amd64-'
     required: false
   closeDelimiter:
-    description: 'Character to use for closing delimiter, by default `<!--GAMFC-END-->`'
-    default: '<!--GAMFC-END-->'
+    description: 'Character to use for closing delimiter, by default `-docker`'
+    default: '-docker'
     required: false
   overwrite:
     description: 'overwrite file'

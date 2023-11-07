@@ -25,8 +25,8 @@ export const getInputs = () => {
   const message = getInput('message') || '';
   const committer_name = getInput('committer_name') || '';
   const committer_email = getInput('committer_email') || '';
-  const openDelimiter = getInput('openDelimiter') || '<!--GAMFC-->';
-  const closeDelimiter = getInput('closeDelimiter') || '<!--GAMFC-END-->';
+  const openDelimiter = getInput('openDelimiter') || 'image: ghcr.io/domaroof/domaplus-api:amd64-';
+  const closeDelimiter = getInput('closeDelimiter') || '-docker';
   
   return {
     ...context.repo,

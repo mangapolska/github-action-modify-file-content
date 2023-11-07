@@ -3,7 +3,7 @@ Modify File Content
 
 Replace text content and submit content
 
-Here is the example: update time <!--GAMFC-->2023-06-24 01:57:03<!--GAMFC-END-->
+Here is the example: update time image: ghcr.io/domaroof/domaplus-api:amd64-2023-06-24 01:57:03-docker
 
 Here is the different delimiter example: <!--GAMFC_TABEL-->different `GAMFC_TABEL` & `GAMFC_TABEL-END` (test)<!--GAMFC_TABEL-END-->
 
@@ -38,10 +38,10 @@ Here is the different delimiter example: <!--GAMFC_TABEL-->different `GAMFC_TABE
 `README.md` file content
 
 ```markdown
-update time <!--GAMFC-->2023-06-24 01:57:03<!--GAMFC-END-->
+update time image: ghcr.io/domaroof/domaplus-api:amd64-2023-06-24 01:57:03-docker
 ```
 
-Replace the content between `<!--GAMFC-->2023-06-24 01:57:03<!--GAMFC-END-->`.
+Replace the content between `image: ghcr.io/domaroof/domaplus-api:amd64-2023-06-24 01:57:03-docker`.
 
 ### format date
 
