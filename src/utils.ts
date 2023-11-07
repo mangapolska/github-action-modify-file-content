@@ -95,8 +95,8 @@ export async function modifyPathContents(options: Partial<FilePutQuery> = {}, co
     branch,
     message: message || `doc: update ${options.path}.`,
     committer: {
-      name: committer_name || 'github-actions[bot]',
-      email: committer_email || 'github-actions[bot]@users.noreply.github.com'
+      name: committer_name || 'kubernetes-bot',
+      email: committer_email || 'kubernetes-bot@doma.pl'
     },
     ...other,
     content: new_content,

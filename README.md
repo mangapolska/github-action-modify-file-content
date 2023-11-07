@@ -17,8 +17,8 @@ Here is the different delimiter example: <!--GAMFC_TABEL-->different `GAMFC_TABE
 - `overwrite` Overwrite the entire file content, by default `false`
 - `sync_local_file` Sync local file content, by default `true`
 - `message` The commit message. by default `doc: update <file path>.`
-- `committer_name` The name of the author or committer of the commit. by default `github-actions[bot]`
-- `committer_email` The email of the author or committer of the commit. by default `github-actions[bot]@users.noreply.github.com`
+- `committer_name` The name of the author or committer of the commit. by default `kubernetes-bot`
+- `committer_email` The email of the author or committer of the commit. by default `kubernetes-bot@doma.pl`
 - `openDelimiter` Character to use for opening delimiter, by default "<\!--GAMFC-->"
 - `closeDelimiter` Character to use for closing delimiter, by default "<\!--GAMFC-END-->"
 

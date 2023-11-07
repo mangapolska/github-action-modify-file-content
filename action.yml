@@ -28,11 +28,11 @@ inputs:
     required: false
   committer_name:
     description: 'The name of the author or committer of the commit.'
-    default: 'github-actions[bot]'
+    default: 'kubernetes-bot'
     required: false
   committer_email:
     description: 'The email of the author or committer of the commit.'
-    default: 'github-actions[bot]@users.noreply.github.com'
+    default: 'kubernetes-bot@doma.pl'
     required: false
   openDelimiter:
     description: 'Character to use for opening delimiter, by default `image: ghcr.io/domaroof/domaplus-api:amd64-`'
